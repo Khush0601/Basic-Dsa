@@ -5,7 +5,6 @@ for(let i=2;i<n;i++){
     let secondLast = a[a.length-2];
     let newNm= lastItem+secondLast;
     a.push(newNm)
-// sum+=a[i]
-//  b=(a[i]).concat(sum)
+
 }
 console.log(a)
