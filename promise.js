@@ -7,6 +7,8 @@ const promiseOne=new Promise(function(resolve,reject){
 promiseOne.then(function(){
     console.log('promise consumed')
 })
+
+
 const promiseTwo=new Promise((resolve,reject)=>{
     setTimeout(()=>{
      console.log('async2 task completed')
@@ -15,4 +17,15 @@ const promiseTwo=new Promise((resolve,reject)=>{
 })
 promiseTwo.catch(()=>{
     console.log('promise 2 failed')
+})
+
+
+// without storing in variable
+new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+     console.log('async 3 task failed')
+     reject()
+    },1000)
+}).catch(()=>{
+    console.log('promise 3 failed')
 })
