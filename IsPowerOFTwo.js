@@ -12,4 +12,7 @@
 // }
 // return isPower
 // }
-// console.log(isPowerOfTwo(50))
+// console.log(isPowerOfTwo(5))
+let age=23
+
+console.log(age)
