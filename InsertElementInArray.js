@@ -1,19 +1,15 @@
-// function insertingEl(arr,postion,newEl){
-//     for(let i=arr.length-1;i>=0;i--){
-//         if(i>=postion){
-//             arr[i+1]=arr[i]
-//             if(i===postion){
-//                 arr[i]=newEl
-//              }
-//          }
-        
-//     }
-//     return insertingEl
-//     }
-//     console.log(insertingEl([3,2,5,7,6,90],3,67))
+let arr=[1,2,3,6,8,5,90,45]
+let onWhichPostion=6
+let el=9;
+let otherEl;
+for(let i=0;i<arr.length;i++){
+    if(i===onWhichPostion){
+       
+        let otherEl=arr[i]
+        arr[i]=el
+      arr[i+1]=otherEl
+    
+      }
 
-let a=123
-
-let b=a.toString()
-
-console.log(b)
+}
+console.log(arr)
