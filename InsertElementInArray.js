@@ -10,6 +10,8 @@ for(let i=0;i<arr.length;i++){
       arr[i+1]=otherEl
     
       }
+     
 
 }
+arr.length=arr.length+1
 console.log(arr)
