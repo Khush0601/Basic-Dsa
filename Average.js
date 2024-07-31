@@ -1,3 +1,4 @@
+// average of an array
 let a=[1,2,3,4,56,7,8]
 let sum=0
 function add(b){
