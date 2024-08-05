@@ -22,6 +22,4 @@ else{
     console.log('no') 
 }
 
-let n='    ji'
-n.trim()
-console.log(n)
+
