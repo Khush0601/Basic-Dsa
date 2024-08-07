@@ -1,3 +1,4 @@
+// print elements of array in reverse form
 let data=[1,2,3]
 function recursion(arr,strt){
  if(strt>=arr.length){
