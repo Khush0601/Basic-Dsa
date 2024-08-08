@@ -4,5 +4,5 @@ function factorial(n){
     }
     return n*factorial(n-1)
 }
-let data=factorial(5)
-console.log(data)
+
+console.log(factorial(5))
