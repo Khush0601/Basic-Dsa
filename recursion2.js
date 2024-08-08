@@ -1,12 +1,12 @@
 // print elements of array 
-let data=[1,2,3]
-function recursion(arr,strt){
- if(strt>=arr.length){
-    return
- }
 
- console.log(arr[strt])
- recursion(arr,strt+1)
 
+const print=(array,strt,newArr)=>{
+if(array.length===strt){
+   return newArr
 }
-recursion(data,0)
+newArr=[...newArr,array[strt]]
+strt=strt+1
+return print(array,strt,newArr)
+}
+console.log(print([1,2,3],0,[]))

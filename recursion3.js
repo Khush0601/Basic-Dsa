@@ -1,3 +1,4 @@
+// print in reverseForm
 let list=[8,9,12]
 function recursion(arr,end,newArr){
     if(end<0){
