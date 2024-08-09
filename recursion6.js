@@ -15,3 +15,5 @@ const getResult=(n)=>{
 return isPowerOfTwo(n)===1?true:false
 }
 console.log(getResult(8))
+
+
