@@ -32,8 +32,30 @@ const student2={
 }
 student2.city='mumbai'
 student2.gender='female' // adding property to an object
-delete student2.age
+delete student2.age // deleting property from object
 console.log(student2)
+
+// nested objects
+const classInfo={
+    aman:{
+       grade:'A+',
+       city:"delhi"
+    },
+    shradha:{
+         grade:'A',
+       city:"mumbai"
+    },
+    karan:{
+         grade:'b',
+       city:"kolkata"
+    }
+
+}
+console.log(classInfo.aman.city)// accessing values by dot method
+console.log(classInfo['aman']['grade']) //  accessing values by array method
+
+
+
 
 
 

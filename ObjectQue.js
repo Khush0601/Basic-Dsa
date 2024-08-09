@@ -11,15 +11,15 @@ let array1=[]
 let arry2=[]
 let a=Object.entries(obj)
 
-// for(let i=0;i<a.length;i++){
-//     if(a[i][0].includes('class')){
-//         array1.push(a[i][1])
-//     }
-//     else{
-//         arry2.push(a[i][1])
-//     }
-// }
-
+for(let i=0;i<a.length;i++){
+    if(a[i][0].includes('class')){
+        array1.push(a[i][1])
+    }
+    else{
+        arry2.push(a[i][1])
+    }
+}
+// 2nd way to solve
 for(let key in obj){
 
     if(key[0]==='c'){
