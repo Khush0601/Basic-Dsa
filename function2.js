@@ -5,23 +5,7 @@ const sum=function(a,b){
 }
 sum(7,8)
 
-//higher Order function
-function callbackFunction(){
-    console.log('callback')
-}
-function higherorder(func){
-    console.log('higher')
-func()
-}
-higherorder(callbackFunction)
 
-
-// Ex of Hof:map
-let data=[1,2,3,4]
-let result=data.map((el)=>{
-    return  el*10
-})
-console.log(result)
 
 // method :actions performed on object
 const calculator={
@@ -37,7 +21,7 @@ const calculator={
 }
 console.log(calculator.add(5,6))
 
-// 
+// to know typeof all datatypes
 let arr=[1,2,3]
 let obj={
     name:"khush",
@@ -49,16 +33,19 @@ let add=function(){
 let a=undefined
 let b=null
 let c=NaN
-// console.log(typeof arr)
-// console.log(typeof obj)
-// console.log(typeof add)
-// console.log(typeof a)
-// console.log(typeof b)
-// console.log(typeof c)
-
+console.log(typeof arr)
+console.log(typeof obj)
+console.log(typeof add)
+console.log(typeof a)
+console.log(typeof b)
+console.log(typeof c)
+// to convert string into number
 let aa='12'
 let bb=parseInt(aa)
-console.log(typeof bb)
+let cc=Number(aa)
+let dd=+aa
+// three ways to convert string into number
+console.log(typeof cc)
 
 
 
