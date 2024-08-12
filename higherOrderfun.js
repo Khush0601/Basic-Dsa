@@ -57,3 +57,37 @@ const doubleMe=(el)=>{
   return el*2
 }
 console.log(myMap([1,2,3,4],doubleMe))
+
+// example of hof
+const calculator=(num1,num2,callback)=>{
+    let result=undefined
+result=callback(num1,num2)
+return result
+}
+const add=(a,b)=>{
+    return a+b
+}
+const sub=(a,b)=>{
+    return a-b
+}
+
+const mult=(a,b)=>{
+    return a*b
+}
+const div=(a,b)=>{
+    return a/b
+}
+console.log(calculator(5,6,mult))
+
+//foreach
+const foreachFun=(arr,callback)=>{
+    let re=undefined
+for(let i=0;i<arr.length;i++){
+    return callback(arr[i])
+}
+}
+
+const callBackfun=(val)=>{
+ return val
+}
+console.log(foreachFun([1,2,3,4],callBackfun))
