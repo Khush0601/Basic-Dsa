@@ -81,7 +81,7 @@ console.log(calculator(5,6,mult))
 
 //foreach
 const foreachFun=(arr,callback)=>{
-    let re=undefined
+   
 for(let i=0;i<arr.length;i++){
     return callback(arr[i])
 }
