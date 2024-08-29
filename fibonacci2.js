@@ -8,3 +8,11 @@ for(let i=3;i<n;i++){
 return fib
 }
 console.log(fibonacci(7))
+// 2nd way
+const fibb=(arr,n)=>{
+    for(let i=2;i<=n;i++){
+       arr.push(arr[i-1]+arr[i-2])
+    }
+    return arr
+    }
+    console.log(fibb([0,1],7))

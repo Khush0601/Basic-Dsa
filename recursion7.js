@@ -7,14 +7,4 @@ function moves(n,s,d,a){
 }
 console.log(moves(4,'s','d','a'))
 
-// 
-let arr=['call','call','call','call','call']
-function leet(ar,startIndex){
-let count=startIndex
-let newArray=[]
-for(let i=0;i<ar.length;i++){
-    newArray.push(count++)
-}
-return newArray
-}
-console.log(leet(arr,-2))
+
