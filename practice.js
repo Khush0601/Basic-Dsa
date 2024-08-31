@@ -16,3 +16,5 @@ console.log(arr2)
 d=data.slice(-1)
 console.log(d)
 
+
+
