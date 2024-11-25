@@ -17,7 +17,7 @@
         { "name": "Charlie", "age": 19, "score": 55 },
         { "name": "David", "age": 22, "score": 75 },
         { "name": "Daviduuuu", "age": 32, "score": 105 },
-        { "name": "David", "age": 82, "score": 55 }
+        { "name": "Davidooo", "age": 82, "score": 55 }
     ]
     
     function findAns(arr){
