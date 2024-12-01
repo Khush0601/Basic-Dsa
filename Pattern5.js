@@ -37,7 +37,7 @@ for(let c=0;c<5;c++){
     }
     process.stdout.write("\n")
 }
-
+//H
 for(let e=0;e<5;e++){
     for(let f=0;f<5;f++){
         if(e===2 || f===0 || f===4){
@@ -49,7 +49,8 @@ for(let e=0;e<5;e++){
     }
     process.stdout.write("\n")
 }
-console.log('break')
+console.log('-------')
+//w
 for(let g=0;g<5;g++){
     for(let h=0;h<5;h++){
         if((h===0 || h===4) || (h===2 && g===2) ||(g===3 && (h===1 || h===3))){
@@ -61,4 +62,15 @@ for(let g=0;g<5;g++){
     }
     process.stdout.write("\n")
 }
-// (h===2 && g===2) ||(g===3 && (h===1 && h===3))
+//A
+for(let m=0;m<5;m++){
+    for(let n=0;n<5;n++){
+        if((m===3)||(m===2 && (n===0 ||n===4))||(m===4 && (n===0 ||n===4))||(m===0 && n===2)|| (m===1 &&(n===1 || n===3))){
+            process.stdout.write("*")
+        }
+        else{
+            process.stdout.write(" ")
+        }
+    }
+    process.stdout.write("\n")
+}
