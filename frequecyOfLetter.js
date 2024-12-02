@@ -18,7 +18,7 @@ function countFrequency(str){
    return obj
 }
 console.log(countFrequency('hellooooyyytttrrrefggg'))
-
+// alternative way
 function countFrequencyy(str){
     let count=1
     for(word of str){
