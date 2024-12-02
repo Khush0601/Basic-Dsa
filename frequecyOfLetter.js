@@ -12,10 +12,7 @@ function countFrequency(str){
         obj[char]=1
     }
     }
-   
-    
-
-   return obj
+    return obj
 }
 console.log(countFrequency('hellooooyyytttrrrefggg'))
 // alternative way
