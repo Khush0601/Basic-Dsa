@@ -1,8 +1,8 @@
 // diagonal difference
 const matrix = [
-    [1, 2, 3], // First row
-    [4, 5, 6], // Second row
-    [9, 8, 9]  // Third row
+    [1, 2, 3], 
+    [4, 5, 6],
+    [9, 8, 9]  
 ];
 function differenceOfDiagonal(arr){
     let diagonalSum1 =0
