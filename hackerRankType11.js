@@ -12,3 +12,26 @@ function reverseKEl(arr,k){
  return result
 }
 console.log(reverseKEl([1,2,3,4,5],6))
+
+//alternate method
+function reverseEl(array,n){
+    let newArr=[]
+    
+  if(n>=array.length){
+    for(let i=array.length-1;i>=0;i--){
+   newArr.push(array[i])
+    }
+    return newArr
+ }
+ else{
+    let a=[]
+    for(let j=n-1;j>=0;j--){
+   a.push(array[j])
+  }
+  let slicedArr=array.slice(n)
+  let b=a.concat(slicedArr)
+  return b
+ }
+ 
+}
+console.log(reverseEl([1,2,3,44,55,8],5))
