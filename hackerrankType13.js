@@ -1,7 +1,8 @@
+//given arr of integers nd integer k find all subarrays of size k 
 function findSubArrays(arr,k){
    let parentArr=[]
    let a=[]
-   let sumArr=[]
+   
    for(let i=0;i<arr.length;i++){
     const subArr=arr.slice(i,i+k)
     if(subArr.length!==k){
@@ -11,6 +12,7 @@ function findSubArrays(arr,k){
         parentArr.push(subArr)
      }
    }
+   
    
 
    return parentArr
