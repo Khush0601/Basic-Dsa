@@ -1,3 +1,4 @@
+// recursion function for summ of array el
 function add(arr){
  if(arr.length===0){
     return 0
