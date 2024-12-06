@@ -11,5 +11,3 @@ console.log(person.entries())
 console.log(person) // isme updated value dega delete krke
 
 
-// keys
-console.log(person.keys())
