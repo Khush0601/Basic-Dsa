@@ -24,6 +24,7 @@ function findCount(s,t,a,b,arr1,arr2){
     if(el>=s && el<=t){
         orangeCount++
     }
+    
  }
  return `${applecount} ${orangeCount}`
 }
