@@ -12,7 +12,17 @@ An array of integers ar, where each integer represents the color of a sock.
 
 function soakMerchant(arr){
     let pairs=0;
-    let newArr=arr.sort()
+    let newArr=arr.sort((a,b)=>{
+      if(a>b){
+        return 1
+      }
+      if(a<b){
+        return -1
+      }
+      if(a===b){
+        return 0
+      }
+    })
     for(let i=0;i<arr.length;i++){
       if(arr[i]===arr[i+1]){
           pairs++;
@@ -21,4 +31,4 @@ function soakMerchant(arr){
     }
     return pairs
   }
-  console.log(soakMerchant([1,2,1,2,1,2,1,1,2,2,3]))
+  console.log(soakMerchant([10 ,20, 20 ,10 ,10 ,30 ,50, 10 ,20]))
