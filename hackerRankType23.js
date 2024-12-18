@@ -1,13 +1,11 @@
 function BonAppetit(arr,k,b){
-  let restArr;
+  let restArr=[]
   let sum=0
   let result;
  for(let i=0;i<arr.length;i++){
-    restArr=arr.filter((val,i)=>{
-     if(val!==arr[k]){
-        return true
-     }
-   })
+   if(arr[i]!==arr[k]){
+    restArr.push(arr[i])
+   }
  }
  for(let j=0;j<restArr.length;j++){
    sum+=restArr[j]
@@ -22,4 +20,4 @@ function BonAppetit(arr,k,b){
 
  return result
 }
-console.log(BonAppetit([3,10,2,9],2,12))
+console.log(BonAppetit([3,10,2,9],1,12))
