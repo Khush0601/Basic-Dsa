@@ -32,3 +32,5 @@ console.log(a);// a is not defined because we cannot access var outside the func
 }
 console.log(x); // 5 because var can be accessed ouside the block because of function scope 
 console.log(y); // cannot access outside the bliock
+
+
