@@ -16,11 +16,12 @@ function reverseSen(sentence){
  for(let i=0;i<arr.length;i++){
   let reverseWord='';
   for(let j=arr[i].length-1;j>=0;j--){
+   
     reverseWord=reverseWord+arr[i][j]
    
   }
   newArr.push(reverseWord)
  }
- return newArr
+ return newArr.join(' ')
 }
 console.log(reverseSen('You are cool'))
