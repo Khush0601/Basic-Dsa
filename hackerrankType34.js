@@ -1,3 +1,4 @@
+//top k frequent el :agr ek arr mein boht el h toh jo unique el hai wo 2 pe kon hai
 function kFrequent(arr,k){
  let uniqueArr=[]
  let duplicate=[]
