@@ -5,3 +5,4 @@ function helloWorld(){
     return g
 }
 console.log(helloWorld()())
+
