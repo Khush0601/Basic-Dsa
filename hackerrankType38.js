@@ -1,3 +1,4 @@
+//Find the length of the longest subarray with all distinct elements.
 function longestSubarrayWithDistinctElements(arr) {
     let start = 0; // Start of the current subarray
     let maxLength = 0; // Length of the longest subarray
