@@ -8,7 +8,7 @@ function viralAdvertising(n) {
    likedPeople=Math.floor(sharedPeople/2)
    likedPeopleArr.push(likedPeople)
    sharedPeople=likedPeople*3
-   cummulative=likedPeople++
+   
   }
   cummulative=likedPeopleArr.reduce((acc,val)=>acc+val)
   return cummulative
