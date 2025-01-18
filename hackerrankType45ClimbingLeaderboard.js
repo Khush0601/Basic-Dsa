@@ -24,6 +24,7 @@ function climbingLeaderboard(ranked, player) {
                     break
                 }
               }
+              
         }
      
     }
