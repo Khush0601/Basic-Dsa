@@ -23,6 +23,8 @@ function climbingLeaderboard(ranked, player) {
                     ranked.splice(i+2,playerrank)
                     break
                 }
+
+                
               }
               
         }
