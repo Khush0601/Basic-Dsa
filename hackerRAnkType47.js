@@ -8,6 +8,7 @@ for(let i=0;i<c.length;i+=k){
         e=e-1
     }
 }
+
 return e
 
 }
