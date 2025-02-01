@@ -7,7 +7,7 @@ function cutTheSticks(arr) {
             result.push(n - i);
         }
     }
-   return result;
+    return result;
    
  
 }
