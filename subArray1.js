@@ -9,14 +9,7 @@ for(let i=0;i<n;i++){
     }
 }
 
-for(let arr of newArr){
-  let sum=0;
-  for(let el of arr){
-    sum+=el;
-   
-  }
-  totalsum+=sum
-}
-return totalsum
+
+return newArr
 }
 console.log(printSubArray([1,2,3]))
