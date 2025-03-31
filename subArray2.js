@@ -18,4 +18,4 @@ function printSubArray(arr){
     }
     return totalsum
     }
-    console.log(printSubArray([1,2,3]))
+    console.log(printSubArray([1,2,3,4]))
