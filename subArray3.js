@@ -2,15 +2,21 @@
 
 function countSubArray(nums,target){
   let count=0;
+  let result=[]
   for(let i=0;i<nums.length;i++){
     let sum=0;
+    let subArr=[]
     for(let j=i;j<nums.length;j++){
         sum+=nums[j]
+        
+        subArr.push(nums[j]);
+       
         if(sum===target){
             count++
+            result.push([...subArr])
         }
     }
   }
-  return count
+  return result
 }
-console.log(countSubArray([3,4,7,2,1,-3,2,3],2))
+console.log(countSubArray([1,1,1],2))
