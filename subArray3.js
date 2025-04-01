@@ -13,4 +13,4 @@ function countSubArray(nums,target){
   }
   return count
 }
-console.log(countSubArray([1,1,1],2))
+console.log(countSubArray([3,4,7,2,1,-3,2,3],2))
