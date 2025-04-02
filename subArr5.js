@@ -11,16 +11,19 @@ function sumEqualToZero(arr){
         for(let j=i;j<arr.length;j++){
             sum+=arr[j]
             subArr.push(arr[j])
+           
             if(sum===0){
                result.push([...subArr])
-               subArrLength=Math.max(maxlength,subArr.length)
+              
+            //    subArrLength=Math.max(maxlength,subArr.length)// subarr ke sare length isme aa jynge
             if(subArr.length>maxlength){
                 maxlength=subArr.length;
+                
                 longestSubArr=[...subArr]// qki copy kr rhe hai
             }
             }
         }
     }
-  return {longestSubArr,subArrLength}
+  return {longestSubArr,maxlength}
 }
 console.log(sumEqualToZero([15, -2, 2, -8, 1, 7, 10, 23]))
