@@ -17,6 +17,6 @@ function countSubArray(nums,target){
         }
     }
   }
-  return result
+  return { result,count}
 }
 console.log(countSubArray([1,1,1],2))
