@@ -9,7 +9,7 @@ function hasZeroSumSubarray(nums) {
     for(let j=i;j<nums.length;j++){
      sum+=nums[j]
      subArr.push(nums[j])
-     if(sum===0){
+     if(sum===0 || sum===1){
         result.push([...subArr])
 
      }
