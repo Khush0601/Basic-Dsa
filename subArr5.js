@@ -13,9 +13,9 @@ function sumEqualToZero(arr){
             subArr.push(arr[j])
            
             if(sum===0){
-               result.push([...subArr])
+            //    result.push([...subArr])
               
-            //    subArrLength=Math.max(maxlength,subArr.length)// subarr ke sare length isme aa jynge
+            //    subArrLength=Math.max(maxlength,subArr.length)// ye jb bs maxlength return krna ho 
             if(subArr.length>maxlength){
                 maxlength=subArr.length;
                 
