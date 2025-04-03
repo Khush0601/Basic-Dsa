@@ -1,4 +1,4 @@
-// find the max. product and arr
+// find the max. product and subArr
 function maxProductSubArr(arr){
 let maxProduct=1;// in case of negative int put -infinty
 let productResultArr=[];
