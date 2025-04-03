@@ -19,3 +19,20 @@ function printSubArray(arr){
     return totalsum
     }
     console.log(printSubArray([1,2,3,4]))
+
+    // another method:
+    function printSubArray(arr){
+      let n=arr.length;
+      let totalsum=0
+      for(let i=0;i<n;i++){
+        let currentSubArrSum=0;
+          for(let j=i;j<n;j++){
+            currentSubArrSum+=arr[j]
+          }
+          totalsum+=currentSubArrSum
+      }
+      
+     
+      return totalsum
+      }
+      console.log(printSubArray([1,2,3,4]))
