@@ -3,7 +3,7 @@
 function sumEqualToZero(arr){
     let result=[]
     let maxlength=0;
-    let subArrLength=0
+    // let subArrLength=0
     let longestSubArr=[]
     for(let i=0;i<arr.length;i++){
         let sum=0;
