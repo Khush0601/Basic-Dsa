@@ -9,6 +9,8 @@ function freq(arr){
             freq[arr[i]]=1
         }
     }
+
+    
     for(let key in freq){
         if(freq[key]===1){
            non_repeating.push(key)
