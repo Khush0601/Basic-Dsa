@@ -10,6 +10,7 @@ function secondSmallest(arr){
             return 0
         }
     })
+    
     return `second smallest :${arr[1]} 
      second largest:${arr.length-1}`
 }
