@@ -10,12 +10,14 @@ function freq(arr){
         }
     }
 
-    
+
     for(let key in freq){
         if(freq[key]===1){
            non_repeating.push(key)
         }
     }
+
+    
     return non_repeating
 }
 console.log(freq([1,3,1,5,3,6]))
