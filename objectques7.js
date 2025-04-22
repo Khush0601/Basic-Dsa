@@ -12,6 +12,7 @@ function mostFrequent(obj){
     const freq={};
     //count the freq:
     for(let key in obj){
+        
         freq[obj[key]]=freq[obj[key]]+1||1;
     }
     let maxCount=0;
