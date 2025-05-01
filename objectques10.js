@@ -1,4 +1,4 @@
-//
+//array of objects questions
 
 let arr1=[
     {id:1,name:'shanu'},
@@ -16,6 +16,7 @@ function findUnique(arr1,arr2){
   
   return neww
 }
+
 let mergelist=findUnique(arr1,arr2)
 let obj={}
 mergelist.forEach((el)=>{
