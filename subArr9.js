@@ -4,7 +4,7 @@ function firstSubArr(arr, k) {
     let message = 'k is too big';
 
     if (k > arr.length) {
-        return message; // stop the function here
+        return message; 
     }
 
     for (let i = 0; i < k; i++) {
@@ -14,4 +14,4 @@ function firstSubArr(arr, k) {
     return subArr;
 }
 
-console.log(firstSubArr([1, 2, 3, 4, 5], 9));  // Output: "k is too big"
+console.log(firstSubArr([1, 2, 3, 4, 5], 9));  
